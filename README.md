@@ -1,74 +1,168 @@
-# Movie Search App
+<h1 align="center">
+Cinema +
+</h1>
+<p align="center">
+MongoDB, Expressjs, React/Redux, Nodejs
+</p>
 
-Welcome to the Movie Search App! This web application allows users to search for information about movies, including details such as title, release year, plot summary, cast, and more. It provides a seamless and intuitive interface for users to discover and explore their favorite movies.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) 
 
-## Features
+Cinema + is an online Movie Ticket Booking web app with MERN Stack.
 
-- **Search:** Easily search for movies by title.
-- **Detailed Information:** View comprehensive details about each movie, including release year, genre, director, cast, and plot summary.
-- **Dynamic Results:** Get real-time search results as you type, making it convenient to find the desired movie quickly.
-- **Responsive Design:** Enjoy a consistent user experience across various devices, including desktops, tablets, and smartphones.
-
-## Technologies Used
-
-- **React:** JavaScript library for building user interfaces.
-- **React Bootstrap:** Frontend framework for building responsive and mobile-first websites.
-- **Axios:** Promise-based HTTP client for making API requests.
-- **CSS:** Styling the application for a visually appealing user interface.
-- **IMDb API:** Utilizes IMDb API for fetching movie data.
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/harshit0075/movie-search.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd movie-search-app
-    ```
-
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-4. Start the development server:
-    ```bash
-    npm start
-    ```
-
-5. Open your web browser and visit `http://localhost:3000` to access the application.
-
-## Deployment
-
-The Movie Search App is deployed and accessible via this [link](https://6601c4d2829f002c9fc64d56--dainty-kataifi-2e1d20.netlify.app/).
-
-## Usage
-
-1. Enter the title of the movie you want to search for in the provided search bar.
-2. As you type, the app will dynamically display matching results.
-3. Click on a movie to view detailed information about it.
-4. Enjoy exploring and discovering new movies!
-
-## Screenshots!
-**HomePage**
-![Screenshot 2024-03-26 001006](https://github.com/harshit0075/movie-search/assets/112869167/54bf60d0-e17f-46de-8434-481bdd105bec)
-
-**Details**
-![Screenshot 2024-03-26 001024](https://github.com/harshit0075/movie-search/assets/112869167/2cf39ec7-c698-44f3-b4bc-b04870ec34d1)
-
-**Searchs**
-![Screenshot 2024-03-26 001104](https://github.com/harshit0075/movie-search/assets/112869167/ba0191bc-89bf-4559-afb5-97b97e20c553)
-![Screenshot 2024-03-26 001145](https://github.com/harshit0075/movie-search/assets/112869167/9a8ea87a-fadd-4e99-963d-a6436bf4f9f2)
-
-**Responsivness**
-
-![Screenshot 2024-03-26 001230](https://github.com/harshit0075/movie-search/assets/112869167/4dd347a6-2c0e-417a-b3ae-9d403c764d86)
-
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+  - Online Booking System
+  - Admin Dashboard
+  - Dark Theme UI
 
 
+> MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
+
+MERN stack is the idea of using Javascript/Node for fullstack web development.
+
+<img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/mern.png" />
+
+# Features!
+
+  - Add / Update / Delete Movies
+  - Add / Update / Delete Cinemas
+  - Add / Update / Delete Showtimes
+  - Add / Update / Delete Reservations
+  - Add / Update / Delete Users
+  - Generate QR Code for reservation check in
+  - Send HTML emails invitations 
+
+
+You can also:
+  - Export QR Code pass as PDF
+
+### Tech
+Cinema + uses a number of open source projects to work properly:
+* [MongoDB](https://www.mongodb.com/) - A document-oriented, No-SQL database used to store the application data.
+* [ExpressJS](https://expressjs.com/) - fast node.js network app framework.
+* [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces.
+* [Redux](https://redux.js.org/) - A predictable state container for JavaScript apps.
+* [nodeJS](https://nodejs.org/) - A JavaScript runtime built on Chrome's V8 JavaScript engine
+
+### Installation
+
+Cinema + requires [Node.js](https://nodejs.org/)  to run.
+
+Set environment variables 
+
+```sh
+$ Create a .env file in your server and client folder
+$ See the .env sample
+create a mongodb database and add your connection string into .env file
+```
+
+Install the dependencies and devDependencies
+
+```sh
+$ git clone https://github.com/georgesimos/Movie-app.git
+$ npm install
+$ cd server npm install && npm start
+$ cd client npm install && npm start
+```
+Start the server.
+
+```sh
+$ cd server 
+$ npm install 
+```
+
+Start the client.
+
+```sh
+$ cd client 
+$ npm install 
+$ npm start
+```
+
+Start from root path
+```sh
+$ npm run server
+$ npm run client
+```
+
+### Plugins
+
+Cinema + is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+
+### Server
+
+
+| Plugin | README |
+| ------ | ------ |
+| concurrently | [plugins/concurrently/README.md](https://github.com/kimmobrunfeldt/concurrently/blob/master/README.md) |
+| bcryptjs | [plugins/bcryptjs/README.md](https://github.com/dcodeIO/bcrypt.js/blob/master/README.md) |
+| express | [plugins/express/README.md](https://github.com/expressjs/express/blob/master/Readme.md) |
+| googleapis | [plugins/googleapis/README.md](https://github.com/googleapis/googleapis/blob/master/README.md) |
+| jsonwebtoken | [plugins/jsonwebtoken/README.md](https://github.com/auth0/node-jsonwebtoken/blob/master/README.md) |
+| mongoose | [plugins/mongoose/README.md](https://github.com/Automattic/mongoose/blob/master/README.md) |
+| multer | [plugins/multer/README.md](https://github.com/expressjs/multer/blob/master/README.md)|
+| nodemailer | [plugins/nodemailer/README.md](https://github.com/nodemailer/nodemailer/blob/master/README.md) |
+| nodemon | [plugins/nodemon/README.md](https://github.com/remy/nodemon/blob/master/README.md) |
+| qrcode | [plugins/qrcode/README.md](https://github.com/soldair/node-qrcode/blob/master/README.md) |
+
+### Client
+
+| Plugin | README |
+| ------ | ------ |
+| fullcalendar | [plugins/fullcalendar/README.md](https://github.com/fullcalendar/fullcalendar/blob/master/README.md) |
+| material-ui | [plugins/material-ui/README.md](https://github.com/mui-org/material-ui/blob/master/README.md) |
+| moment | [plugins/moment/README.md](https://www.npmjs.com/package/@date-io/moment?activeTab=readme) |
+| jspdf | [plugins/jspdf/README.md](https://github.com/MrRio/jsPDF) |
+| react | [plugins/react/README.md](https://github.com/facebook/react/blob/master/README.md) |
+| react-facebook-login | [plugins/react-facebook-login /README.md](https://github.com/keppelen/react-facebook-login/blob/master/README.md) |
+| react-google-login | [plugins/react-google-login/README.md](https://www.npmjs.com/package/react-google-login) |
+| react-redux | [plugins/react-redux/README.md](https://github.com/reduxjs/react-redux) |
+| react-router-dom | [plugins/react-router/README.md](https://github.com/ReactTraining/react-router/blob/master/README.md) |
+| react-slick | [plugins/react-slick/README.md](https://github.com/akiran/react-slick) |
+| redux | [plugins/redux/README.md](https://github.com/reduxjs/redux)|
+
+### Todos
+
+ - Add Light Mode / More themes
+
+
+
+# Screenshots! 
+
+Movie Page
+<img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/movie.png" />
+
+<details>
+  <summary>More Screenshots</summary>
+  Booking Page
+  <img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/booking.png" />
+
+  Booking Invitations
+  <img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/invitation.png" />
+
+  Guest Dashboard Page
+  <img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/guest-dashboard.png" />
+
+  My Account Page
+  <img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/my-account.png" />
+
+  Admin Home Page
+  <img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/admin-dashboard.png" />
+
+  Admin Cinema Page
+  <img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/admin-cinemas.png" />
+
+  Admin Movie Page
+  <img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/admin-movies.png" />
+
+  Admin Reservation Page
+  <img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/reservations.png" />
+
+  Admin Reservation Calendar
+  <img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/calendar.png" />
+</details>
+
+
+
+License
+----
+
+MIT
